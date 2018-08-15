@@ -31,7 +31,7 @@ int StrToInt(const std::string& str)
 	return i;
 }
 
-void shuffe(vector<string>& queue, int size)
+void shuffle(vector<string>& queue, int size)
 {
 	for (int i=size-1; i>0; --i)
 	{
@@ -48,7 +48,7 @@ void swap(string& s1, string& s2)
 }
 
 
-int image(vector<string>& pub)
+void image(vector<string>& pub)
 {
 		int loop = 0;
 		int cnt = 0;
@@ -193,6 +193,8 @@ int image(vector<string>& pub)
 		}
 	
 	printf("cnt=%d\n", cnt);
+
+	return;
 }
 
 int main()

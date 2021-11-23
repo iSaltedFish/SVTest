@@ -12,6 +12,7 @@ using namespace std;
 #define TEST
 #define DEV0
 #define DEV1
+#define DEV2
 
 void display(vector<string>& queue, int size)
 {

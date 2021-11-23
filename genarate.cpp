@@ -11,6 +11,7 @@ using namespace std;
 
 
 #define TEST
+#define MASTER
 
 void display(vector<string>& queue, int size)
 {

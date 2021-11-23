@@ -9,8 +9,8 @@ using namespace std;
 
 #define LOOPNUM 1000000
 
-
 #define TEST
+#define DEV0
 
 void display(vector<string>& queue, int size)
 {

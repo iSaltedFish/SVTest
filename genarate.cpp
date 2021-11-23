@@ -9,10 +9,13 @@ using namespace std;
 
 #define LOOPNUM 1000000
 
-
 #define TEST
 #define MASTER
 #define MASTER1
+#define DEV0
+#define DEV1
+#define DEV2
+#define DEV3
 
 void display(vector<string>& queue, int size)
 {
